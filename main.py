@@ -1,5 +1,5 @@
 import streamlit as st
-from transformers import  pipeline
+from transformers import BertTokenizerFast, pipeline
 from PyPDF2 import PdfReader
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
