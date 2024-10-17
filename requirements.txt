@@ -1,6 +1,6 @@
-streamlit==1.24.0
+streamlit==1.39.0 
 transformers==4.27.0
-tensorflow==2.0
+tensorflow
 PyPDF2==3.0.0
 numpy==1.24.0
 scikit-learn==1.3.0
