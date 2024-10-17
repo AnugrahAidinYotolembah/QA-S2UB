@@ -1,6 +1,6 @@
 streamlit 
-transformers==4.27.0
+transformers
 tensorflow
-PyPDF2==3.0.0
-numpy==1.24.0
-scikit-learn==1.3.0
+PyPDF2
+numpy
+scikit-learn 
