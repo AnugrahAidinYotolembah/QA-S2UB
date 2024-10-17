@@ -1,5 +1,4 @@
 streamlit
-pytorch
 transformers
 PyPDF2
 numpy
