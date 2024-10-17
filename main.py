@@ -14,10 +14,8 @@ def read_pdf(file):
     pdf_reader = PdfReader(file)
     text = ""
     for page in pdf_reader.pages:
-        page_text = page.extract_text()
-        if page_text:  # Pastikan teks tidak None
-            text += page_text
-    return text.strip()  # Menghilangkan spasi di awal dan akhir
+        text += page.extract_text()
+    return text
 
 # Fungsi untuk mendapatkan jawaban panjang
 def get_long_answer(context, question, max_length):
