@@ -53,7 +53,7 @@ def find_relevant_sentence(context, question):
     return sentences[best_sentence_index].strip()
 
 # Judul aplikasi
-st.title("Tanya Jawab Menggunakan Indobert-Lite")
+st.title("Tanya Jawab Menggunakan LLM")
 
 # Input file PDF
 uploaded_file = st.file_uploader("Unggah file PDF", type=["pdf"])
