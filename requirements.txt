@@ -1,6 +1,5 @@
 streamlit 
 transformers
-tensorflow
 PyPDF2
 numpy
 scikit-learn 
