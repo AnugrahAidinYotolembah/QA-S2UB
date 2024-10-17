@@ -1,3 +1,4 @@
+pytorch
 streamlit
 transformers
 PyPDF2
