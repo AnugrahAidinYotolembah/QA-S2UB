@@ -1,3 +1,4 @@
+#memasukkan library python
 import streamlit as st
 from transformers import BertTokenizerFast, pipeline
 from PyPDF2 import PdfReader
