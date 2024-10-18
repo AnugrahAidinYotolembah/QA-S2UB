@@ -54,7 +54,7 @@ def find_relevant_sentence(context, question):
 
 # Judul aplikasi
 st.title("Tanya Jawab Menggunakan LLM")
-
+st.title("Create by Aidin's and friends")
 # Input file PDF
 uploaded_file = st.file_uploader("Unggah file PDF", type=["pdf"])
 
